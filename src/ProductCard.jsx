@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductCard = ({ image, title, price, onAddToCart }) => {
+const ProductCard = ({ image, title, price, onAddToCart, ref }) => {
   return (
     <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
       <img
